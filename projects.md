@@ -4,14 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-{% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
-    <ul>
-    {% for posts in category %}
-      {% for post in posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    {% endfor %}
-    </ul>
-  </li>
+{% for post in site.categories["projects"] %}
+    <li>{{ post.title }}</li>
 {% endfor %}
