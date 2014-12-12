@@ -4,12 +4,19 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+###Quick Facts
+
+Full Name: Duy Hai Bui
+Email: [duyhai@gatech.edu](duyhai@gatech.edu)
+Current Loc: Atlanta, GA
+From: Budapest, Hungary
+College: Georgia Institute of Technology
+Major: Computer Science
+Age: 23
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+I'm a twenty three year old Vietnamese born in Budapest, Hungary. I got my Computer Engineering BSc at the Budapest University of Technology and Economics in 2014 and started my graduate studies at the Georgia Institute of Technology later in the Fall.
 
-### Contact me
+I am mainly interested in High Performance Computing, Computer Graphics and Theory of Computing. I enjoy projects that combine multiple of these aspects.
 
-[email@domain.com](mailto:email@domain.com)
