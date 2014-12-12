@@ -6,13 +6,14 @@ permalink: /about/
 
 ###Quick Facts
 
-Full Name: Duy Hai Bui
-Email: [duyhai@gatech.edu](duyhai@gatech.edu)
-Current Loc: Atlanta, GA
-From: Budapest, Hungary
-College: Georgia Institute of Technology
-Major: Computer Science
-Age: 23
+*Full Name:* Duy Hai Bui
+*Email:* [duyhai@gatech.edu](duyhai@gatech.edu)
+*Current Location:* Atlanta, GA
+*From:* Budapest, Hungary
+*College:* Georgia Institute of Technology
+*Major:* Computer Science
+*Age:* 23
+*Resume:* [>Link<](data/resume.pdf)
 
 ### More Information
 
