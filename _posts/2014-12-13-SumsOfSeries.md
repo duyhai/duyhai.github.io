@@ -26,9 +26,9 @@ As we can see, we have to know the cardinality of our dataset here as well. This
 
 If we have have 2 sets of points of *n* cardinality and for each element in the first set, there is an element in the second one, which equals to the first one times -1, then we can use the following formula to make our calculations a bit more efficient.
 
-A(x) = a_0 + a_1*x + ... + a_n*x^n<br>
-A(x) = A_e(x^2) + x*A_o(x^2)<br>
-A(-x) = A_e(x^2) - x*A_o(x^2)
+A(x) = a_0 + a_1&#42;x + ... + a_n&#42;x^n<br>
+A(x) = A_e(x^2) + x&#42;A_o(x^2)<br>
+A(-x) = A_e(x^2) - x&#42;A_o(x^2)
 
 Where A_e is the part of A with the even numbered coefficients and A_o is the part with odd numbered ones. This trick only reduces our running time by a factor of 2, but this is still a very big improvement for large data sets.
 
