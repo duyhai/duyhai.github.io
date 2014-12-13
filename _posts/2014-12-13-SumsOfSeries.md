@@ -4,7 +4,7 @@ title: Neat tricks to handle series
 categories : [maths]
 ---
 
-Though most of these tricks that I'm going to talk about are pretty well known, not many people consider their power until they really need them, but then it is usually too late, because they are usually forgotten by that time.
+Though most of these tricks that I'm going to talk about are pretty well known, not many people consider their power until they really need them, but then, it is usually too late, since they are usually forgotten by that time. I wrote this post serves as a reminder for these people.
 
 ## Arithmetic series
 
@@ -30,3 +30,7 @@ A(x) = A_e(x^2) + xA_o(x^2)<br>
 A(-x) = A_e(x^2) - xA_o(x^2)
 
 Where A_e is the part of A with the even numbered coefficients and A_o is the part with odd numbered ones. This trick only reduces our running time by a factor of 2, but this is still a very big improvement for large data sets.
+
+## Conclusion
+
+These techniques were probably not new to anyone, but people tend to forget these simple methods when all these problems can be solved by a mere for cycle. Remembering to use these tricks is vital if we want to work with large sets of numbers.
