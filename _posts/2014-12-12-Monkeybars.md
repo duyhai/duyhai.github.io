@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CS7496 Computer Animation Final Project - The other side
+title: CS7496 Computer Animation Final Project
 categories : [projects]
 ---
 
