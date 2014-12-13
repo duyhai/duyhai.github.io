@@ -26,15 +26,15 @@ As we can see, we have to know the cardinality of our dataset here as well. This
 
 If we have have 2 sets of points of *n* cardinality and for each element in the first set, there is an element in the second one, which equals to the first one times -1, then we can use the following formula to make our calculations a bit more efficient.
 
-A(x) = A<sub>e</sub>(x<sup>2</sup>) + x&#42;A<sub>o</sub>(x<sup>2</sup>)<br>
-A(-x) = A<sub>e</sub>(x<sup>2</sup>) - x&#42;A<sub>o</sub>(x<sup>2</sup>)
+A(x) = A_e(x^2) + x&#42;A_o(x^2)<br>
+A(-x) = A_e(x^2) - x&#42;A_o(x^2)
 
-Where A<sub>e</sub> is the part of A with the even numbered coefficients and A<sub>o</sub> is the part with odd numbered ones. This trick only reduces our running time by a factor of 2, but this is still a very big improvement for large data sets.
+Where A_e is the part of A with the even numbered coefficients and A_o is the part with odd numbered ones. This trick only reduces our running time by a factor of 2, but this is still a very big improvement for large data sets.
 
-A(x) = a<sub>0</sub> + a<sub>1</sub>&#42;x + ... + a<sub>2m-1</sub>&#42;x<sup>2m-1</sup><br>
-A(-x) = a<sub>0</sub> - a<sub>1</sub>&#42;x + ... - a<sub>2m-1</sub>&#42;x<sup>2m-1</sup><br>
-A<sub>e</sub>(x<sup>2</sup>) = a<sub>0</sub> + a<sub>2</sub>&#42;x<sup>2</sup> + ... + a<sub>2m-2</sub>&#42;x<sup>2m-2</sup><br>
-A<sub>o</sub>(x<sup>2</sup>) = a<sub>1</sub> + a<sub>3</sub>&#42;x<sup>2</sup> + ... + a<sub>2m-1</sub>&#42;x<sup>2m-1</sup><br>
+A(x) = a_0 + a_1&#42;x + ... + a_(2m-1)&#42;x^(2m-1)<br>
+A(-x) = a_0 - a_1&#42;x + ... - a_(2m-1)&#42;x^(2m-1)<br>
+A_e(x^2) = a_0 + a_2&#42;x^2 + ... + a_(2m-2)&#42;x^(2m-2)<br>
+A_o(x^2) = a_1 + a_3&#42;x^2 + ... + a_(2m-1)&#42;x^(2m-1)<br>
 
 ## Conclusion
 
