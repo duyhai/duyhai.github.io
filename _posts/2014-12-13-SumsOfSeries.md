@@ -22,15 +22,19 @@ This one is not so obvious (at least for me) and may take a few extra seconds to
 
 As we can see, we have to know the cardinality of our dataset here as well. This formula has another interesting property however. It works for infinite elements (only for *&#124;r&#124; < 1* though)! If we know basic calculus, we can easily verify this. The benefit here is just a constant factor: Originally we would have to use 2 operations for each element, but now, we just need to raise to the power of *n* and a few extra operations. The implementation of a power function in Math libraries is usually a bit faster though, sacrificing a bit of accuracy in return.
 
-## Determining the values of a polynomial at *2n* points
+## Determining the values of an *m* order polynomial at *2n* points
 
 If we have have 2 sets of points of *n* cardinality and for each element in the first set, there is an element in the second one, which equals to the first one times -1, then we can use the following formula to make our calculations a bit more efficient.
 
-A(x) = a_0 + a_1&#42;x + ... + a_n&#42;x^n<br>
 A(x) = A_e(x^2) + x&#42;A_o(x^2)<br>
 A(-x) = A_e(x^2) - x&#42;A_o(x^2)
 
 Where A_e is the part of A with the even numbered coefficients and A_o is the part with odd numbered ones. This trick only reduces our running time by a factor of 2, but this is still a very big improvement for large data sets.
+
+A(x) = a_0 + a_1&#42;x + ... + a_(2m-1)&#42;x^(2m-1)<br>
+A(-x) = a_0 - a_1&#42;x + ... - a_(2m-1)&#42;x^(2m-1)<br>
+A_e(x^2) = a_0 + a_2&#42;x^2 + ... + a_(2m-2)&#42;x^(2m-2)<br>
+A_o(x^2) = a_1 + a_3&#42;x^2 + ... + a_(2m-1)&#42;x^(2m-1)<br>
 
 ## Conclusion
 
