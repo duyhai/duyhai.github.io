@@ -7,13 +7,13 @@ permalink: /about/
 ###Quick Facts
 
 **Full Name:** Duy Hai Bui<br>
-**Email:** <a href="mailto:myname@gmail.com">contact me <a/><br>
+**Email:** <a href="mailto:duyhai@gatech.edu">duyhai@gatech.edu<a/><br>
 **Current Location:** Atlanta, GA<br>
 **From:** Budapest, Hungary<br>
 **College:** Georgia Institute of Technology<br>
 **Major:** Computer Science<br>
 **Age:** 23<br>
-**Resume:** [>Link<](../data/resume.pdf)
+**Resume:** [>Link<]![_config.yml]({{ site.baseurl }}/data/resume.pdf)
 
 ### More Information
 
