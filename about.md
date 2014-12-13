@@ -7,7 +7,7 @@ permalink: /about/
 ###Quick Facts
 
 **Full Name:** Duy Hai Bui<br>
-**Email:** <a href="&#109;a&#105;lt&#111;&#58;d;&#117;yh&#97;&#105;&#64;gat&#101;&#99;&#104;&#46;&#101;&#100;u">&gt;Send&lt;</a><br>
+**Email:** <a href="&#109;a&#105;lt&#111;&#58;d&#117;yh&#97;&#105;&#64;gat&#101;&#99;&#104;&#46;&#101;&#100;u">&gt;Send&lt;</a><br>
 **Current Location:** Atlanta, GA<br>
 **From:** Budapest, Hungary<br>
 **College:** Georgia Institute of Technology<br>
