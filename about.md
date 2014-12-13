@@ -13,7 +13,7 @@ permalink: /about/
 **College:** Georgia Institute of Technology<br>
 **Major:** Computer Science<br>
 **Age:** 23<br>
-**Resume:** [>Link<]![_config.yml]({{ site.baseurl }}/data/resume.pdf)
+**Resume:** [>Link<](https://github.com/duyhai/duyhai.github.io/raw/master/data/Resume.pdf)
 
 ### More Information
 
