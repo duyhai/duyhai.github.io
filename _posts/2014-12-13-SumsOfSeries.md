@@ -20,7 +20,7 @@ This one is not so obvious (at least for me) and may take a few extra seconds to
 
 ![The formula](/images/geometricsum.png)
 
-As we can see, we have to know the cardinality of our dataset here as well. This formula has another interesting property however. It works for infinite elements (only for *|r| < 1* though)! If we know basic calculus, we can easily verify this. The benefit here is just a constant factor: Originally we would have to use 2 operations for each element, but now, we just need to raise to the power of *n* and a few extra operations. The implementation of a power function in Math libraries is usually a bit faster though, sacrificing a bit of accuracy in return.
+As we can see, we have to know the cardinality of our dataset here as well. This formula has another interesting property however. It works for infinite elements (only for *&#124;r&#124; < 1* though)! If we know basic calculus, we can easily verify this. The benefit here is just a constant factor: Originally we would have to use 2 operations for each element, but now, we just need to raise to the power of *n* and a few extra operations. The implementation of a power function in Math libraries is usually a bit faster though, sacrificing a bit of accuracy in return.
 
 ## Determining the values of a polynomial at *2n* points
 
