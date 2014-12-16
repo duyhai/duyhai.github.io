@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenGL: The chickens and the road roller
+title: OpenGL - The chickens and the road-roller
 categories : [projects]
 ---
 
