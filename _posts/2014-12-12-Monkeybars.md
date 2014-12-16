@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CS7496 Computer Animation Final Project
+title: Dynamic controller for human characters
 categories : [projects]
 ---
 
