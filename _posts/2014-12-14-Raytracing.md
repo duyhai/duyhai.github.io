@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ray tracing
-categories : [projects, C++]
+categories : [projects]
 ---
 
 This was our 3rd project in our Computer Graphics course at Budapest University of Technology and Economics. Our task was to implement ray tracing with Fresnel re-fracturing and specular lights.
