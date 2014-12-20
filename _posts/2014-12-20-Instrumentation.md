@@ -10,8 +10,8 @@ I really liked this project, because it had a setting of a real life scenario. W
 
 Sadly, I don't have the source code any more, but anyone interested in the topic can find some information about it here:
 
-[http://msdn.microsoft.com/en-us/library/aa384642(v=vs.85).aspx](http://msdn.microsoft.com/en-us/library/aa384642(v=vs.85).aspx)
+[About WMI] (http://msdn.microsoft.com/en-us/library/aa384642(v=vs.85).aspx)
 
-[http://msdn.microsoft.com/en-US/enus/library/aa394553(VS.85).aspx](http://msdn.microsoft.com/en-US/enus/library/aa394553(VS.85).aspx)
+[WMI Architecture] (http://msdn.microsoft.com/en-US/enus/library/aa394553(VS.85).aspx)
 
-[http://msdn.microsoft.com/en-US/enus/library/bb404670.aspx](http://msdn.microsoft.com/en-US/enus/library/bb404670.aspx)
+[WMI Provider Extensions] (http://msdn.microsoft.com/en-US/enus/library/bb404670.aspx)
