@@ -4,7 +4,7 @@ title: WMI Instrumentation
 categories : [projects]
 ---
 
-This was a project for my Intelligent System Surveillance course at Budapest University of Technology and Economics. In this project we received the source code for a Black Jack program and had to instrument it for surveillance through network using WMI. We also had to use StyleCop which enforced us specific coding practices.
+This was a project for my Intelligent System Surveillance course at Budapest University of Technology and Economics. In this project we received the source code for a Black Jack program and had to instrument it for surveillance through network using WMI. We also had to use [StyleCop](https://stylecop.codeplex.com/) which enforced us specific coding practices.
 
 I really liked this project, because it had a setting of a real life scenario. We had to get familiar with someone else's code and had to add features to enable surveillance without breaking the original code. The whole course had these really interesting assignments where we had to set up machines to gather data from each other, measure performance or troubleshoot. Even though it was very tough, I enjoyed the whole experience.
 
