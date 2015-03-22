@@ -13,7 +13,7 @@ permalink: /about/
 **College:** Georgia Institute of Technology<br>
 **Major:** Computer Science<br>
 **Age:** 23<br>
-**Resume:** [>Link<](/data/Resume.pdf)
+**Resume:** [>Link<](/data/Resume.pdf)<br>
 **Hackerrank profile:** [>Link<](https://www.hackerrank.com/duyhai)
 
 ### More Information
